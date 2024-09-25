@@ -4,6 +4,15 @@
 yarn && yarn dev // install dependencies && start dev server
 ```
 
+## Important 
+*If you are contributing to this starter kit, ignore this entire message*.  
+Remove the remote origin to this repo, check it has been removed (should return empty), and set a new one to your desired remote origin.
+```sh
+git remote remove origin
+git remote -v
+git remote add origin <new-repo-url>
+```
+
 ## Project Structure
 ### Packages
  - TypeScript
