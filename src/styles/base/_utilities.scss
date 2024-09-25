@@ -1,0 +1,20 @@
+.u-text {
+  &--center {
+    text-align: center;
+  }
+}
+
+.u-display--grid {
+  display: grid;
+}
+
+.u-display--flex {
+  display: flex;
+}
+
+.u-display--inline-flex {
+  display: inline-flex;
+}
+.u-justify-content--right {
+  justify-content: flex-end;
+}

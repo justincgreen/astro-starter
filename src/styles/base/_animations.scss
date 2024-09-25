@@ -1,0 +1,19 @@
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.u-fade-up {
+  opacity: 0;
+  transform: translateY(20%);
+  
+  &.is-active {
+    animation: fadeUp 1s forwards;
+  }
+}

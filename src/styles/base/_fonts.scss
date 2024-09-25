@@ -1,0 +1,32 @@
+// Fonts
+.u-font-size--xs {
+  font-size: var(--font-size--xs);
+}
+
+.u-font-size--sm {
+  font-size: var(--font-size--sm);
+}
+
+.u-font-size--md {
+  font-size: var(--font-size--md);
+}
+
+.u-font-size--lg {
+  font-size: var(--font-size--lg);
+}
+
+.u-font-size--xl {
+  font-size: var(--font-size--xl);
+}
+
+.u-font-size--xxl {
+  font-size: var(--font-size--xxl);
+}
+
+.u-font-size--jumbo {
+  font-size: var(--font-size--jumbo);
+  
+  @include breakpoint(md){
+    font-size: var(--font-size--md);
+  }
+}

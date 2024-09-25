@@ -1,0 +1,21 @@
+.l-container {
+  max-width: var(--media-xxl);
+  margin: auto;
+  padding: 0 var(--space);
+}
+
+.l-split-layout {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--space);
+    
+  &__left {
+    grid-column: span 3;
+    padding-top: var(--space-double);
+  } 
+  
+  &__right {
+    grid-column: span 9;
+    padding-top: var(--space-double);
+  }   
+}

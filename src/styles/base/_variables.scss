@@ -1,0 +1,66 @@
+// General Variables
+
+// Primary Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap');
+
+// Colors 
+:root {
+  --color-black: #1A202C;
+  --color-black--darkest: #12161e;
+  --color-black--light: #2d374c;
+  --color-white: #ffffff;
+  --color-red: #ff3c26;
+  --color-red--light: #dd7f7f;
+  --color-green: #00ff94;
+  --color-green--mid: #124249;
+  --color-green--darkest: #061e21;
+  --color-teal: #00b2c8;
+  --color-teal--dark: #1f4e55;
+  --color-mint: #64ffda;
+  --color-blue: #33aef7;
+  --color-gray: #a0aec0;  
+}
+
+// Fonts 
+:root {
+  --font-family-body: "Montserrat", sans-serif;
+  --font-family-primary: "Montserrat", sans-serif;
+  --font-family-secondary: "Roboto Mono", monospace;
+  --font-size--base: 16px;
+  --font-size--xxs: 0.9em;
+  --font-size--xs: 1.2em;
+  --font-size--sm: 1.5em;
+  --font-size--md: 1.8em;
+  --font-size--lg: 2em;
+  --font-size--xl: 2.5em;
+  --font-size--xxl: 3em;
+  --font-size--jumbo: 4em;
+}
+
+// Spacing 
+:root {
+  --space: 20px;
+  --space-small: calc(var(--space) - 15px); // 5px;
+  --space-half: calc(var(--space) - 10px); // 10px;
+  --space-double: calc(var(--space) * 2); // 40px
+  --space-triple: calc(var(--space) * 3); // 60px;
+  --space-quad: calc(var(--space) * 4); // 80px;
+  --space-jumbo: calc(var(--space) * 5); // 100px;
+}
+
+// Media Breakpoints
+:root {
+  --media-xs: 320px;
+  --media-sm: 480px;
+  --media-md: 768px;
+  --media-lg: 1024px;
+  --media-xl: 1200px;
+  --media-xxl: 1440px;
+  --media-xxxl: 1920px;
+}
+
+// Transition
+:root {
+  --transition-all: all 0.2s ease;
+  --transition-effect: cubic-bezier(0.86, 0, 0.07, 1);
+}
